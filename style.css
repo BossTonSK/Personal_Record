@@ -8,19 +8,19 @@
 }
 
 :root {
-    --primary-light: #E8D5F2;
-    --primary-medium: #D4B5E8;
-    --primary-dark: #8B5FC7;
-    --secondary-light: #B4E7FF;
-    --secondary-medium: #87CEEB;
-    --secondary-dark: #4A90E2;
-    --accent-light: #FFB6D9;
-    --accent-medium: #FF69B4;
-    --accent-dark: #D63384;
+    --primary-light: #F5E6D3;
+    --primary-medium: #E8D4B8;
+    --primary-dark: #A68757;
+    --secondary-light: #EDD9C3;
+    --secondary-medium: #D4BFA8;
+    --secondary-dark: #8B7355;
+    --accent-light: #F4DCC9;
+    --accent-medium: #E6C9B8;
+    --accent-dark: #9B7E6B;
     --white: #FAFAFA;
-    --dark: #1A1A2E;
-    --text-light: #636E72;
-    --text-dark: #2D3436;
+    --dark: #3E2723;
+    --text-light: #6D4C41;
+    --text-dark: #4E342E;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.15);
 }
@@ -31,7 +31,7 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #FAFAFA 0%, #F5E6F0 100%);
+    background: linear-gradient(135deg, #FAFAF8 0%, #F5E8DC 100%);
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
@@ -44,11 +44,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(250, 250, 250, 0.95);
+    background: rgba(250, 250, 248, 0.95);
     backdrop-filter: blur(10px);
     padding: 1.5rem 0;
     z-index: 1000;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px rgba(62, 39, 35, 0.08);
 }
 
 .nav-container {
@@ -63,7 +63,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #8B5FC7 0%, #4A90E2 100%);
+    background: linear-gradient(135deg, #A68757 0%, #8B7355 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -90,7 +90,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: linear-gradient(135deg, #8B5FC7 0%, #4A90E2 100%);
+    background: linear-gradient(135deg, #A68757 0%, #8B7355 100%);
     transition: width 0.3s ease;
 }
 
@@ -113,7 +113,7 @@ body {
     position: relative;
     overflow: hidden;
     padding-top: 80px;
-    background: linear-gradient(135deg, rgba(232, 213, 242, 0.3) 0%, rgba(180, 231, 255, 0.2) 100%);
+    background: linear-gradient(135deg, rgba(245, 230, 211, 0.4) 0%, rgba(232, 212, 184, 0.3) 100%);
 }
 
 .hero-content {
@@ -129,7 +129,7 @@ body {
     font-size: 4rem;
     font-weight: 900;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #8B5FC7 0%, #4A90E2 50%, #D63384 100%);
+    background: linear-gradient(135deg, #A68757 0%, #8B7355 50%, #9B7E6B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -155,19 +155,19 @@ body {
 .cta-button {
     display: inline-block;
     padding: 1rem 2.5rem;
-    background: linear-gradient(135deg, #8B5FC7 0%, #4A90E2 100%);
+    background: linear-gradient(135deg, #A68757 0%, #8B7355 100%);
     color: white;
     text-decoration: none;
     border-radius: 50px;
     font-weight: 700;
     transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(139, 95, 199, 0.4);
+    box-shadow: 0 10px 30px rgba(166, 135, 87, 0.4);
     animation: slideDown 0.8s ease-out 0.3s backwards;
 }
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(139, 95, 199, 0.6);
+    box-shadow: 0 15px 40px rgba(166, 135, 87, 0.6);
 }
 
 .cta-button:active {
@@ -195,7 +195,7 @@ body {
 .blob-1 {
     width: 300px;
     height: 300px;
-    background: linear-gradient(135deg, #E8D5F2, #D4B5E8);
+    background: linear-gradient(135deg, #F5E6D3, #E8D4B8);
     top: 10%;
     right: 10%;
     animation-delay: 0s;
@@ -204,7 +204,7 @@ body {
 .blob-2 {
     width: 250px;
     height: 250px;
-    background: linear-gradient(135deg, #B4E7FF, #87CEEB);
+    background: linear-gradient(135deg, #EDD9C3, #D4BFA8);
     bottom: 20%;
     left: 10%;
     animation-delay: 2s;
@@ -213,7 +213,7 @@ body {
 .blob-3 {
     width: 200px;
     height: 200px;
-    background: linear-gradient(135deg, #FFB6D9, #FF69B4);
+    background: linear-gradient(135deg, #F4DCC9, #E6C9B8);
     top: 50%;
     right: 5%;
     animation-delay: 4s;
@@ -240,7 +240,7 @@ body {
    ============================================ */
 .about {
     padding: 6rem 2rem;
-    background: linear-gradient(135deg, rgba(212, 181, 232, 0.1) 0%, rgba(180, 231, 255, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(232, 212, 184, 0.15) 0%, rgba(221, 190, 155, 0.1) 100%);
 }
 
 .container {
@@ -255,7 +255,7 @@ body {
     color: var(--primary-dark);
     font-weight: 900;
     animation: fadeInDown 0.8s ease-out;
-    text-shadow: 2px 2px 4px rgba(139, 95, 199, 0.1);
+    text-shadow: 2px 2px 4px rgba(166, 135, 87, 0.1);
 }
 
 .about-content {
@@ -273,6 +273,30 @@ body {
     font-weight: 500;
 }
 
+.about-box {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary-dark);
+    animation: fadeInLeft 0.8s ease-out backwards;
+}
+
+.about-box:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.about-box:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.about-subtitle {
+    font-size: 1.3rem;
+    color: var(--primary-dark);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
 .fade-in-text {
     animation: fadeInLeft 0.8s ease-out backwards;
 }
@@ -283,6 +307,10 @@ body {
 
 .fade-in-text.delay-2 {
     animation-delay: 0.4s;
+}
+
+.fade-in-text.delay-3 {
+    animation-delay: 0.6s;
 }
 
 /* Skills Section */
@@ -305,10 +333,10 @@ body {
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 20px rgba(62, 39, 35, 0.08);
     transition: all 0.3s ease;
     animation: fadeInUp 0.6s ease-out backwards;
-    border: 2px solid rgba(139, 95, 199, 0.2);
+    border: 2px solid rgba(166, 135, 87, 0.2);
 }
 
 .skill-card:nth-child(1) {
@@ -329,9 +357,9 @@ body {
 
 .skill-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 40px rgba(62, 39, 35, 0.15);
     border-color: var(--primary-dark);
-    background: linear-gradient(135deg, rgba(232, 213, 242, 0.5) 0%, rgba(180, 231, 255, 0.3) 100%);
+    background: linear-gradient(135deg, rgba(245, 230, 211, 0.5) 0%, rgba(232, 212, 184, 0.3) 100%);
 }
 
 .skill-icon {
@@ -363,7 +391,7 @@ body {
    ============================================ */
 .contact {
     padding: 6rem 2rem;
-    background: linear-gradient(135deg, #E8D5F2 0%, #B4E7FF 100%);
+    background: linear-gradient(135deg, #F5E6D3 0%, #EDD9C3 100%);
     position: relative;
 }
 
@@ -395,7 +423,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(62, 39, 35, 0.1);
     transition: all 0.3s ease;
     border: 2px solid transparent;
     animation: fadeInUp 0.8s ease-out;
@@ -403,7 +431,7 @@ body {
 
 .contact-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 40px rgba(62, 39, 35, 0.15);
     border-color: var(--primary-dark);
 }
 
@@ -431,14 +459,14 @@ body {
 }
 
 .email-card:hover {
-    border-color: #D63384;
+    border-color: #9B7E6B;
 }
 
 /* ============================================
    Footer
    ============================================ */
 .footer {
-    background: linear-gradient(135deg, #8B5FC7 0%, #4A90E2 100%);
+    background: linear-gradient(135deg, #A68757 0%, #8B7355 100%);
     color: white;
     text-align: center;
     padding: 2rem;
